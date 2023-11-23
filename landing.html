@@ -32,7 +32,9 @@
 
 </center>
 <div id="About" class="about">
+    <center>
     <h2>About Us</h2>
+</center>
     <p>Etravel is an Indian online travel company founded in 2000. Headquartered in Gurugram, Haryana, the company
         provides online travel services including airline tickets, domestic and international holiday packages, hotel
         reservations, rail, and bus tickets. As of June 2023, the company has 146 active franchisees operating in over
@@ -40,16 +42,26 @@
         Bangkok, and Dubai.[5]</p>
 </div>
 <div id="Contact" class="Contact">
+    <center>
     <h2>Contact Us</h2>
-    <form id="form">
-        Name : <input type="text" placeholder="Your Name"><br><br>
-        Email : <input type="email" placeholder="Your Email"><br><br>
-        Age : <input type="number" placeholder="Your Age"><br><br>
-        <button type="submit">Submit</button>
+</center>
+    <form>
+        <div class="form-group">
+            <label for="name"  >Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" required></textarea>><br><br>
+            <button type="submit">Submit</button><br><br>
     </form>
 </div>
 <footer>
-    <p>
+    <p style="color: black;">
         © 2023 Etravel🛩️ PVT. LTD.Country India USA UAE
     </p>
 </footer>

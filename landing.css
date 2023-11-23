@@ -42,11 +42,10 @@ h1 {
     font-size: 80px;
   }
 p{
-padding: 10px;
+   padding: 10px;
     text-align: center;
     font-size: 25px;
     color: white;
-
 }
 #rcorners2 {
     border-radius: 25px;
@@ -71,10 +70,7 @@ padding: 10px;
     background-image:url("images (2).jpeg") ;
     display: inline-block;
     height: 200px;
-    width: 200px;
-
-
-    
+    width: 200px; 
   }
 
   .four{
@@ -92,15 +88,42 @@ padding: 10px;
         padding: 50px 20px;
         text-align: center;
         background-color: black;
-        text-decoration-color:black;
         color: white;
     }
-    footer {
-        text-align: center;
-        padding: 10px ;
-        background-color:black;
-        
+      h2{
+        border-radius: 25px;
+    background: green;
+    padding: 20px; 
+    width: 150px;
+    height: 25px;
+    margin: 100%-10; 
+    cursor: pointer;
       }
+      h2:hover{
+        color:yellow;
+      }
+      button {
+        width: 15%;
+        padding: 10px;
+        background-color: green;
+        color:white;
+        border: 30%;
+        border-radius: 5px;
+        cursor: pointer;
+      
+      }
+      button:hover {
+        background-color: green;
+      }
+      footer {
+        text-align: center;
+        padding: 20px;
+        background-color:white;
+      }
+     
+      
+    
+
    
     
  
