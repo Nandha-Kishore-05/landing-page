@@ -1,0 +1,109 @@
+nav{
+    background-color:black;
+    color: white;
+    padding: 15px;
+}
+body {
+    background-image: url("images (3).jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+li,h3,ul{
+    display: inline;
+}
+ul{
+    margin-left: 75% ;
+}
+li{
+    color: grey;
+    cursor: pointer;
+    
+}
+li:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+h3{
+    color: aqua;
+    cursor: pointer;
+}
+h3:hover{
+    color:white;
+}
+h1 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    padding: 20px;
+    font-size: 80px;
+  }
+p{
+padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+
+}
+#rcorners2 {
+    border-radius: 25px;
+    background: green;
+    padding: 20px; 
+    width: 150px;
+    height: 25px;
+    margin: 100%-10; 
+    cursor: pointer;    
+  }
+  #rcorners2:hover{
+    color:black;
+
+  }
+.two{
+    background-image:url("images (4).jpeg") ;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+}
+  .three{
+    background-image:url("images (2).jpeg") ;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+
+
+    
+  }
+
+  .four{
+    background-image:url("images (1).jpeg") ;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    }
+    .about {
+        padding: 50px 20px;
+        background-color: grey;
+        text-align: center;
+    }
+    .Contact {
+        padding: 50px 20px;
+        text-align: center;
+        background-color: black;
+        text-decoration-color:black;
+        color: white;
+    }
+    footer {
+        text-align: center;
+        padding: 10px ;
+        background-color:black;
+        
+      }
+   
+    
+ 
+ 
+  
+
