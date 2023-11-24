@@ -4,18 +4,19 @@ nav{
     padding: 15px;
 }
 body {
-    background-image: url("images (3).jpeg");
+    background-image: url("pexels-eberhard-grossgasteiger-1612353.jpg");
     background-size: cover;
     background-position: center;
-    height: 100vh;
-    margin: 0;
-  }
+    height: 40vh;
+}
+  
 
 li,h3,ul{
     display: inline;
 }
 ul{
-    margin-left: 75% ;
+    margin-left: 65% ;
+    
 }
 li{
     color: grey;
@@ -63,21 +64,28 @@ p{
 .two{
     background-image:url("images (4).jpeg") ;
     display: inline-block;
-    height: 200px;
-    width: 200px;
+    height: 160px;
+    width: 220px;
+    margin-right: 30px;
+    border-radius: 10px;
+  
 }
   .three{
     background-image:url("images (2).jpeg") ;
     display: inline-block;
-    height: 200px;
-    width: 200px; 
+    height: 160px;
+    width: 220px;
+    margin-right: 30px; 
+    border-radius: 10px;
   }
 
   .four{
     background-image:url("images (1).jpeg") ;
     display: inline-block;
-    height: 200px;
-    width: 200px;
+    height: 160px;
+    width: 220px;
+    margin-right: 30px;
+    border-radius: 10px;
     }
     .about {
         padding: 50px 20px;
@@ -87,8 +95,12 @@ p{
     .Contact {
         padding: 50px 20px;
         text-align: center;
-        background-color: black;
         color: white;
+        background-image: url("geranimo-qzgN45hseN0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+      
     }
       h2{
         border-radius: 25px;
@@ -97,6 +109,7 @@ p{
     width: 150px;
     height: 25px;
     margin: 100%-10; 
+
     cursor: pointer;
       }
       h2:hover{
@@ -120,6 +133,41 @@ p{
         padding: 20px;
         background-color:white;
       }
+
+      input{
+        width: 300px;
+        height: 30px;
+        border: 1px solid rgba(128, 128, 128, 0.482);
+        border-radius: 10px;
+        box-shadow: 3px 3px 7px white;
+       font-size: medium;
+      }
+      textarea{
+        width: 300px;
+        height: 30px;
+        border: 1px solid rgba(128, 128, 128, 0.482);
+        border-radius: 10px;
+        box-shadow: 3px 3px 7px white;
+
+      }
+      label{
+        font-size: x-large;
+      }
+      .Blog{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: x-large;
+        
+        color:white;
+        padding: 50px 20px;
+        text-align: center;
+        background-image: url("valley-landscape-aesthetic-mountains-gradient-background-6318x2633-4589.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 150vh;
+        
+      }
+      
+      
      
       
     
