@@ -13,12 +13,10 @@ body {
   
 
 li,h3,ul{
-    display: inline;
-  
-    
+    display: inline;    
 }
 ul{
-    margin-left: 70% ;
+    margin-left: 70%;
     border-radius: 30%;
    
     
