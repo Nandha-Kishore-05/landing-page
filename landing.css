@@ -2,20 +2,25 @@ nav{
     background-color:black;
     color: white;
     padding: 15px;
+    
 }
 body {
     background-image: url("pexels-eberhard-grossgasteiger-1612353.jpg");
     background-size: cover;
     background-position: center;
-    height: 40vh;
+    height: 50vh;
 }
   
 
 li,h3,ul{
     display: inline;
+    margin-right: 20px;
+    
 }
 ul{
-    margin-left: 65% ;
+    margin-left: 70% ;
+    border-radius: 30%;
+   
     
 }
 li{
@@ -31,6 +36,7 @@ li:hover{
 h3{
     color: aqua;
     cursor: pointer;
+    
 }
 h3:hover{
     color:white;
@@ -165,7 +171,9 @@ p{
         background-position: center;
         height: 150vh;
         
+        
       }
+    
       
       
      
